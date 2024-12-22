@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Akos Wex - Releases</title>
+  <title>Soundlab - Music Band & Musician Template</title>
   <meta name="description" content="">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -36,7 +36,7 @@
 
   <script src="scripts/vendor/modernizr.js"></script>
 </head>
-<body data-spy="scroll" data-target="#navbar-muziq" data-offset="80" class="dark-version">
+<body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
 
   <!-- LOADER -->
   <div id="mask">
@@ -47,52 +47,36 @@
     </div>
   </div>
   <!-- HEADER -->
-  <nav class="navbar navbar-default" style="background-color: #000000;">
-    <div class="container-fluid">
+  <header id="jHeader" class="overflow-video">
+    <nav class="navbar navbar-default " role="navigation">
+
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Desplegar navegación</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href=""><img src="images/akoswexlogo.png" alt="" width="13%"></a>
+        <a class="navbar-brand" href="#anchor00"><img src="images/logo-white.png" alt="logo"></a>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tour-dates-video.html">Gigs</a></li>
-          <li><a href="gallery-video.html">Gallery</a></li>
-          <li class="active"><a href="discography-dark.html">Music</a></li>
-         
-          <li><a href="contact-newalbum.html">Contact</a></li> 
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Labels
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://www.beatport.com/label/airsound-records/52936">AIRSOUND RECORDS</a></li>
-                <li><a href="https://www.beatport.com/label/second-air-records/64981">SECOND AIR RECORDS</a></li>
-            </ul>
-          </li>
-          <li><a href="comingsoon.html">Merch</a></li>  
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="home-video.html">Home</a></li>
+          <li class="active"><a href="discography-video.html">DISCOGRAPHY</a></li>
+          <li><a href="about-video.html">ABOUT</a></li>
+          <li><a href="tour-dates-video.html">TOUR DATES</a></li>
+          <li><a href="gallery-video.html">GALLERY</a></li>
+          <li><a href="news-video.html">NEWS</a></li>
+          <li><a href="contact-video.html">CONTACT</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
 
-  <!-- INTRO -->
-  <section class="intro intro-mini full-width jIntro bg-header discography dark" id="anchor00">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-        </div>
-      </div>
-    </div>
-  </section>
-
+    </nav>
+  </header>
 
   <section class="section discography" id="anchor03">
-    <div class="voffset100"></div>
+    <div class="voffset160"></div>
     <div id="discography"></div>
     <div class="container">
       <div class="row">
@@ -303,17 +287,104 @@
   </div>
 </section>
 
+	<!-- CONTACTS -->
+	<section class="section inverse-color contact" id="anchor08">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="voffset70"></div>
+					<div class="title-wrapper">
+						<h2 class="title inverse">follow & contact</h2>
+					</div>
+					<div class="voffset100"></div>
+				</div>
+			</div>
+			<div class="row no-gutter">
+				<div class="col-xs-12 col-md-3 text-center">
+					<h2 class="title-follow">MGMT</h2>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+					<div class="voffset40"></div>
+					<p class="name">Jhon Smith</p>
+					<p class="phone"><a href="tel:+1-456-768-9864">T+1-456-768-9864</a></p>
+					<p class="email"><a href="mailto:mgtm@music.com">mgtm@music.com</a></p>
+					<div class="voffset40"></div>
+
+					<hr class="hidden-xs">
+				</div>
+				<div class="col-xs-12 col-md-3 text-center">
+					<h2 class="title-follow">BOOKING</h2>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+					<div class="voffset40"></div>
+					<p class="name">Natalia Portman</p>
+					<p class="phone"><a href="tel:+1-456-768-9864">T+1-456-768-9864</a></p>
+					<p class="email"><a href="mailto:booking@music.com">booking@music.com</a></p>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+				</div>
+				<div class="col-xs-12 col-md-3 text-center">
+					<h2 class="title-follow">press</h2>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+					<div class="voffset40"></div>
+					<p class="name">Matt More</p>
+					<p class="phone"><a href="tel:+1-456-768-9864">T+1-456-768-9864</a></p>
+					<p class="email"><a href="mailto:press@music.com">press@music.com</a></p>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+				</div>
+				<div class="col-xs-12 col-md-3 text-center">
+					<h2 class="title-follow">info</h2>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+					<div class="voffset40"></div>
+					<p class="name">Jackson Five</p>
+					<p class="phone"><a href="tel:+1-456-768-9864">T+1-456-768-9864</a></p>
+					<p class="email"><a href="mailto:info@music.com">info@music.com</a></p>
+					<div class="voffset40"></div>
+					<hr class="hidden-xs">
+				</div>
+			</div>
+
+			<div class="row social">
+				<a href="#"><img src="images/demo/social/logo01.png" alt="logo01"></a>
+				<a href="#"><img src="images/demo/social/logo02.png" alt="logo02"></a>
+				<a href="#"><img src="images/demo/social/logo03.png" alt="logo03"></a>
+				<a href="#"><img src="images/demo/social/logo04.png" alt="logo04"></a>
+				<a href="#"><img src="images/demo/social/logo05.png" alt="logo05"></a>
+			</div>
+
+			<div class="voffset80"></div>
+
+		</div>
+	</section>
 
 	<!-- FOOTER -->
-  <footer>
-    <p class="copy">© 2025 All Rights Reserved. Coded by <a href="http://dtweb.hu">dtweb</a></p>
-    <ul class="menu-footer">
-      <li><a href="#">download press</a></li>
-      <li><a href="#">facebook</a></li>
-    </ul>
-</footer>
+	<footer>
+		<div class="container">
+			<p class="copy">© 2017. All Rights Reserved. Designed by JellyThemes</p>
+			<ul class="menu-footer">
+				<li><a href="#">disclaimer</a></li>
+				<li><a href="#">terms & conditions</a></li>
+				<li><a href="#">privacy policy</a></li>
+			</ul>
+		</div>
+	</footer>
 
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
 
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
 
 		<script src="scripts/vendor/jquery.js"></script>
 		<script src="scripts/vendor/jquery.superslides.min.js"></script>
@@ -325,7 +396,7 @@
 		<script src="scripts/vendor/TimeCircles.js"></script>
 		<script src="scripts/vendor/owl.carousel.min.js"></script>
 		<script src="scripts/vendor/jquery.parallax.min.js"></script>
-
+    <script src="scripts/YTPlayer.js"></script>
 		<script src="scripts/discography.js"></script>
 		<script src="scripts/news.js"></script>
 		<script src="scripts/main.js"></script>
