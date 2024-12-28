@@ -1971,8 +1971,7 @@ h2.title:after {
   font-weight: 800;
   color: #fff;
   text-shadow: 4px 2px 15px rgba(2, 2, 2, 0.491);
-  position: relative;
-  top: 60px;
+
 }
 
 .stay-in-touch .subtitulo {
@@ -1980,8 +1979,8 @@ h2.title:after {
   line-height: 26px;
   font-weight: 400;
   font-family: "Montserrat", monospace;
-  position: relative;
-  top: 60px;
+ 
+  
 }
 
 
@@ -4931,6 +4930,4 @@ img {
   background-color: #f8f6f6;
   color: rgb(10, 10, 10);
 }
-
-
 
